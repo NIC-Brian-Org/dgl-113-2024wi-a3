@@ -27,10 +27,13 @@ Create the following functions:
 
 - `addItem(quantity,unitPrice,description)`: adds an item to the grocery list.
   You will have to add an element to the end of all the arrays as well as
-  updating the value in `totalCost`.
+  updating the value in `totalCost`. HINT: all parameter values are extracted
+  directly from the webpage textfields as strings. When they are added to
+  arrays, proper data types are expected.
 - `deleteItem(index)`: deletes the item at position `index` in the grocery list.
   `index` is 0-based, so 0 means the first item, 1 means the second item, and
   so on. You will have to update all the arrays accordingly as well as
   updating the value in `totalCost`.
 
-NOTE: Only modify the `docs/app.js` and `docs/index.html` files. Do not make changes to any other files.
+NOTE: Only modify the `docs/app.js` and `docs/index.html` files.
+Do not make changes to any other files.
